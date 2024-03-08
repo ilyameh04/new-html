@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background-color: antiquewhite;
+                padding: 20px 20px;
+                margin: 10px;
+            }
+            .header {
+                background-color: blue;
+                color: aliceblue;
+                margin: 30px;
+            }
+            .topnav {
+                background-color: aquamarine;
+                color: orange;
+            }
+            .topnav a:hover {
+                background-color: black;
+                color: red;
+            }
+            .row:active {
+                background-color: gainsboro;
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div class="header">
+        <h1>My Site</h1>
+        <p>I create it now</p>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a class="row" href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+
+    <div>
+        <p>echo "# new-html" >> README.md
+            git init
+            git add README.md
+            git commit -m "first commit"
+            git branch -M main
+            git remote add origin https://github.com/ilyameh04/new-html.git
+            git push -u origin main</p>
+    </div>
+    </body>
+</html>
